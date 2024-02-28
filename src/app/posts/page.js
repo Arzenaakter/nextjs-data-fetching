@@ -1,13 +1,16 @@
 import React from 'react';
 
 const PostPage = async() => {
+    // const res = await fetch("http://localhost:5000/posts", {
+    //     next:{revalidate:5}
+    // })
     const res = await fetch("http://localhost:5000/posts", {
-        next:{revalidate:5}
+        cache:"no-store"
     })
     const post = await res.json()
     return (
         <div>
-            <h1>total post:{post.length} </h1>
+            <h1>total posts:{post.length} </h1>
             <div className='space-y-6'>
                 {post.map((item)=><div key={item.id} className="card w-[80%] bg-gray-100 shadow-xl mx-auto">
   <div className="card-body">
