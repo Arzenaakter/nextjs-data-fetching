@@ -1,0 +1,41 @@
+{
+    "posts":[
+      {
+        "id": 1,
+        "title": "The Art of Cooking",
+        "description": "Discover the secrets of culinary excellence in this immersive cooking journey. From mastering basic knife skills to creating complex flavor profiles, this course will elevate your cooking to new heights. Join us and unleash your inner chef!",
+        "likes": 150
+      },
+      {
+        "id": 2,
+        "title": "Exploring the Cosmos",
+        "description": "Embark on a cosmic voyage through space and time. Learn about the wonders of the universe, from black holes to distant galaxies. Join our community of stargazers and expand your horizons beyond the stars!",
+        "likes": 230
+      },
+      {
+        "id": 3,
+        "title": "The Power of Meditation",
+        "description": "Unlock inner peace and tranquility through the practice of meditation. Discover ancient techniques to calm the mind, reduce stress, and enhance overall well-being. Begin your journey to mindfulness today!",
+        "likes": 320
+      },
+      {
+        "id": 4,
+        "title": "Mastering the Guitar",
+        "description": "Unleash your musical potential with our comprehensive guitar course. From basic chords to advanced techniques, you'll learn everything you need to become a skilled guitarist. Join our community of music enthusiasts and rock out!",
+        "likes": 420
+      },
+      {
+        "id": 5,
+        "title": "The Art of Photography",
+        "description": "Capture the beauty of the world through the lens of a camera. Learn about composition, lighting, and editing to create stunning photographs. Join our community of shutterbugs and unleash your creativity!",
+        "likes": 280
+      },
+      {
+        "id": 6,
+        "title": "The Science of Climate Change",
+        "description": "Explore the causes and consequences of climate change in this eye-opening course. Learn about the latest scientific research and discover how individuals and communities can mitigate its impact. Join us in the fight for a sustainable future!",
+        "likes": 180
+      }
+    ]
+
+}
